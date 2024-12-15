@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.heroimage{
+    background-image: url("https://visitmaldives.s3.amazonaws.com/kobdmEY8/c/4yvh1rdl-shareable_image.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}

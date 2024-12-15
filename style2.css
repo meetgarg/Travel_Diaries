@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:#B4C5E4 ; */
+}
+Body{
+    overflow-x: hidden;
+}
+
+li, a, button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 5px 7%;
+    background-color: white;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s; /* Have to learn about it */
+    color: black;
+}
+
+.nav_links li a:hover{
+    padding: 15px 17px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0 , 0.4);
+}
+
+button{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 50px;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0 , 0.9);
+}
+
+.where{
+    margin-top: 50px;
+    font-family:Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+.searchbar input{
+    padding: 15px 200px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+
+
+
+.service{
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 24%;
+}
+.service_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.service_links li a{
+    transition: all 0.3s ease 0s; 
+    color: black;
+    font-size: 20px;
+}
+
+.service_links li a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+
+.carousel-item img{
+    background-size: contain;
+    height: 90vh;
+}
+
+.samvideo{
+    text-align: center;
+}
+
+.samvideo iframe{
+    border-radius: 25px;
+}
+
+
+.top{
+    margin-top: 50px;
+}
+
+h1{
+    margin-left: 8%;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.toplist{
+    margin-left: 8%;
+}
+.toplist table{
+    padding: 30px 0px;
+}
+.toplist table tr td{
+    padding: 0px 20px;
+}
+
+.toplist table tr td a{
+    transition: all 0.3s ease 0s;
+}
+
+.toplist table tr td a img{
+    border-radius: 20px;
+}
+
+
+.destinations{
+    margin-left: 8%;
+}
+.destinations table{
+    padding: 30px 0px;
+}
+.destinations table tr td{
+    padding: 0px 20px;
+}
+
+.destinations table tr td a{
+    transition: all 0.3s ease 0s;
+}
+
+.destinations table tr td a img{
+    border-radius: 20px;
+}
+
+.vlog{
+    display: inline-block;
+}
+.vlog {
+    background-color: #dddddd;
+}
+
+.vlog h1{
+    padding-top: 20px;
+}
+
+.travelvlog{
+    margin-left: 8%;
+}
+.travelvlog table{
+    padding: 30px 0px;
+    border: none;
+}
+.travelvlog table tr td{
+    padding: 0px 30px;
+}
+
+.travelvlog table tr td a{
+    transition: all 0.3s ease 0s;
+}
+.travelvlog table tr td a img{
+    border-radius: 20px;
+}
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.fa:hover {
+    color: darkblue;
+  }
+
+.vlog img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
